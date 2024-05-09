@@ -8,7 +8,9 @@ Develop an advanced search engine algorithm that efficiently retrieves subtitles
 
 ## Keyword based vs Semantic Search Engines:
 Keyword Based Search Engine: These search engines rely heavily on exact keyword matches between the user query and the indexed documents.
+
 Semantic Search Engines: Semantic search engines go beyond simple keyword matching to understand the meaning and context of user queries and documents.
+
 Comparison: While keyword-based search engines focus primarily on matching exact keywords in documents, semantic-based search engines aim to understand the deeper meaning and context of user queries to deliver more relevant and meaningful search results.
 
 ## Core Logic:
