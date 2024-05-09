@@ -15,11 +15,11 @@ Comparison: While keyword-based search engines focus primarily on matching exact
 To compare a user query against a video subtitle document, the core logic involves three key
 steps:
 1. Preprocessing of data:
-a. If you have limited compute resources, you can take a random 30% of the data.
-b. Clean: A possible cleaning step can be to remove time-stamps (Note: Cleaning the Text data is crucial before vectorization)
-c. Vectorize the given Subtitle Documents
+  a. If you have limited compute resources, you can take a random 30% of the data.
+  b. Clean: A possible cleaning step can be to remove time-stamps (Note: Cleaning the Text data is crucial before vectorization)
+  c. Vectorize the given Subtitle Documents
 2. Take the user query and vectorize the User Query.
 3. Cosine Similarity Calculation:
-a. Compute the cosine similarity between the vector of the documents and the vector of the user query.
-b. This similarity score determines the relevance of the documents to the user's query.
+  a. Compute the cosine similarity between the vector of the documents and the vector of the user query.
+  b. This similarity score determines the relevance of the documents to the user's query.
 4. Return the most similar documents
